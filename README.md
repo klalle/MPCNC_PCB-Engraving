@@ -1,6 +1,8 @@
 # MPCNC-PCB Milling
 
 I finally tied to mill a custom PCB with my MPCNC, and my CNC did not let me down this time either! =)
+As you see on the pic below I really need to get a better engraving bit... 
+had to sand off the roughly cutt copper edges and then draw a sharp edge thrue all the traces to make sure no copper was left, shorting it out...
 ![alt text](https://github.com/klalle/MPCNC_PCB-Engraving/blob/master/Pics/Routed.jpg)
 ![alt text](https://github.com/klalle/MPCNC_PCB-Engraving/blob/master/Pics/DoneFront.jpg)
 ![alt text](https://github.com/klalle/MPCNC_PCB-Engraving/blob/master/Pics/DoneBack.jpg)
