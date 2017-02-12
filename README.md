@@ -15,11 +15,12 @@ I have never routed a PCB before, so this was a first, and I had no idéa of wha
 4. Exported three files
 	*Routes and Cutout with Device: "GERBER_RS274X"
 	*Drills/Holes with "EXCELON_24"
+
 ![alt text](https://github.com/klalle/MPCNC_PCB-Engraving/blob/master/Pics/Schematics.PNG)
 ![alt text](https://github.com/klalle/MPCNC_PCB-Engraving/blob/master/Pics/Board_Layout.PNG)
 ![alt text](https://github.com/klalle/MPCNC_PCB-Engraving/blob/master/Pics/Board_Routes.PNG)
 ![alt text](https://github.com/klalle/MPCNC_PCB-Engraving/blob/master/Pics/Board_Cutout.PNG)
-<p>
+<br>
 ##Created gcode with FlatCAM
 1. Typed: "set_sys excellon_zeros T" in command-line (bootom of window) to be able to import Eagle-files correctly (done only once)
 2. Imported the two gerber-files and the Excelon-file and made sure they lined up
