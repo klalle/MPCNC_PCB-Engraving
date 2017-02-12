@@ -1,6 +1,9 @@
 # MPCNC-PCB Milling
 
 I finally tied to mill a custom PCB with my MPCNC, and my CNC did not let me down this time either! =)
+![alt text](https://github.com/klalle/MPCNC_PCB-Engraving/blob/master/Pics/Routed.jpg)
+![alt text](https://github.com/klalle/MPCNC_PCB-Engraving/blob/master/Pics/DoneFront.jpg)
+![alt text](https://github.com/klalle/MPCNC_PCB-Engraving/blob/master/Pics/DoneBack.jpg)
 
 I have never routed a PCB before, so this was a first, and I had no idéa of what programs to use, but this is how I did it: 
 
@@ -11,15 +14,20 @@ I have never routed a PCB before, so this was a first, and I had no idéa of wha
 3. I made a polyline-area that defined the board cut-out on layer 249 (Edge)
 4. Exported three files
 	*Routes and Cutout with Device: "GERBER_RS274X"
-	*Drills/Holes with "EXCELON_24" 
-	
+	*Drills/Holes with "EXCELON_24"
+![alt text](https://github.com/klalle/MPCNC_PCB-Engraving/blob/master/Pics/Schematics.PNG)
+![alt text](https://github.com/klalle/MPCNC_PCB-Engraving/blob/master/Pics/Board_Layout.PNG)
+![alt text](https://github.com/klalle/MPCNC_PCB-Engraving/blob/master/Pics/Board_Routes.PNG)
+![alt text](https://github.com/klalle/MPCNC_PCB-Engraving/blob/master/Pics/Board_Cutout.PNG)
+<p>
 ##Created gcode with FlatCAM
 1. Typed: "set_sys excellon_zeros T" in command-line (bootom of window) to be able to import Eagle-files correctly (done only once)
 2. Imported the two gerber-files and the Excelon-file and made sure they lined up
 3. Followed [this](https://www.inventables.com/projects/how-to-mill-a-through-hole-pcb) guidet to export gcodes
 4. Followed [this](http://caram.cl/software/flatcam/board-cutout-with-flatcam/) guide to make custom board cutout
 5. Exported the files without file-ending (without ".gcode") to the folder called "PostProcess"
-
+![alt text](https://github.com/klalle/MPCNC_PCB-Engraving/blob/master/Pics/Board_Cutout.PNG)
+<p>
 ##Post Procesor
 1. I made a custom post-procesor to match the gcode that the post processor for F360 puts out.
 	*It's a bat-script and needs "Sed" to be installed download Sed.exe for windows [here](from http://gnuwin32.sourceforge.net/packages/sed.htm)
