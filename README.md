@@ -22,6 +22,8 @@ I have never routed a PCB before, so this was a first, and I had no idéa of wha
 ![alt text](https://github.com/klalle/MPCNC_PCB-Engraving/blob/master/Pics/Board_Layout.PNG)
 ![alt text](https://github.com/klalle/MPCNC_PCB-Engraving/blob/master/Pics/Board_Routes.PNG)
 ![alt text](https://github.com/klalle/MPCNC_PCB-Engraving/blob/master/Pics/Board_Cutout.PNG)
+![alt text](https://github.com/klalle/MPCNC_PCB-Engraving/blob/master/Pics/CAM_1.PNG)
+![alt text](https://github.com/klalle/MPCNC_PCB-Engraving/blob/master/Pics/Drills.PNG)
 <br>
 ##Created gcode with FlatCAM
 1. Typed: "set_sys excellon_zeros T" in command-line (bootom of window) to be able to import Eagle-files correctly (done only once)
@@ -29,7 +31,8 @@ I have never routed a PCB before, so this was a first, and I had no idéa of wha
 3. Followed [this](https://www.inventables.com/projects/how-to-mill-a-through-hole-pcb) guidet to export gcodes
 4. Followed [this](http://caram.cl/software/flatcam/board-cutout-with-flatcam/) guide to make custom board cutout
 5. Exported the files without file-ending (without ".gcode") to the folder called "PostProcess"
-![alt text](https://github.com/klalle/MPCNC_PCB-Engraving/blob/master/Pics/Board_Cutout.PNG)
+
+![alt text](https://github.com/klalle/MPCNC_PCB-Engraving/blob/master/Pics/fCam.PNG)
 <p>
 ##Post Procesor
 1. I made a custom post-procesor to match the gcode that the post processor for F360 puts out.
