@@ -1,6 +1,9 @@
 # MPCNC-PCB Milling
 
 I finally tied to mill a custom PCB with my MPCNC, and my CNC did not let me down this time either! =)
+
+Its a home alarm system with Movement detector and fire alarm (microphone listens for fire-alarm) connects to WiFi with ESP-03 and sends me a message on my phone (Telegram via a bot) and can be turned on/off from phone!
+
 As you see on the pic below I really need to get a better engraving bit... 
 had to sand off the roughly cutt copper edges and then draw a sharp edge thrue all the traces to make sure no copper was left, shorting it out...
 ![alt text](https://github.com/klalle/MPCNC_PCB-Engraving/blob/master/Pics/Routed.jpg)
