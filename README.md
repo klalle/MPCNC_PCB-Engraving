@@ -36,9 +36,9 @@ I have never routed a PCB before, so this was a first, and I had no idéa of wha
 <p>
 ##Post Procesor
 1. I made a custom post-procesor <b>"PostProcessGcodes.bat"</b> to match the gcode that the post processor for F360 puts out.
-	*It's a bat-script and needs "Sed" to be installed download Sed.exe for windows [here](http://gnuwin32.sourceforge.net/packages/sed.htm)
-	*Just put the bat-file next to the folder "PostProcess" and dubble click the file, it will generate three gcode-files of the files in the folder
-	*The speeds are all set in the post processor! changes in FlatCAM will be overwritten! change in notepad++ to match your needs!
+  *It's a bat-script and needs "Sed" to be installed download Sed.exe for windows [here](http://gnuwin32.sourceforge.net/packages/sed.htm) 
+  *Just put the bat-file next to the folder "PostProcess" and dubble click the file, it will generate three gcode-files of the files in the folder
+  *The speeds are all set in the post processor! changes in FlatCAM will be overwritten! change in notepad++ to match your needs!
 
 ##Routing
 1. Put the three gcode files on an SD-card and plugged it in to MPCNC
