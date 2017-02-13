@@ -32,4 +32,4 @@ I have never routed a PCB before, so this was a first, and I had no idéa of wha
 2. Used my custom functions to probe for Z with zero probe offset, used the copper clad as GND instead of probe metal piece...
 3. Used a 45 deg V-bit for the engraving (really need to get a new sharp one), 1mm end mill for holes and 1.5mm end mill for cut out
 
-I was really hapy that my [custom LCD-menu](https://github.com/klalle/Marlin_RC7_LCD_Customization) did it's job and I made use of a lot of my custom functions! 
+I was really happy that my [custom LCD-menu](https://github.com/klalle/Marlin_RC7_LCD_Customization) did it's job and I made use of a lot of my custom functions! 
