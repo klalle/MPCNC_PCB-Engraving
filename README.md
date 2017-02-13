@@ -23,11 +23,12 @@ I have never routed a PCB before, so this was a first, and I had no idéa of wha
 5. Exported the files without file-ending (without ".gcode") to the folder called "PostProcess"
 
 ##Post Procesor
-1. I made a custom post-procesor to match the gcode that the post processor for F360 puts out.
+1. I made a custom post-procesor to match the gcode that the post processor for F360 puts out. 
+	* creds to [Mike](https://www.vicious1.com/forum/topic/pcb-isolation-milling/) that led me in the right direction
 	* It's a bat-script and needs "Sed" to be installed download Sed.exe for windows [here](from http://gnuwin32.sourceforge.net/packages/sed.htm)
 	* Just put the bat-file next to the folder "PostProcess" and dubble click the file, it will generate gcode-files of all the files in the folder
 
-##Routing
+##Milling
 1. Put the three gcode files on an SD-card and plugged it in to MPCNC
 2. Used my custom functions to probe for Z with zero probe offset, used the copper clad as GND instead of probe metal piece...
 3. Used a 45 deg V-bit for the engraving (really need to get a new sharp one), 1mm end mill for holes and 1.5mm end mill for cut out
