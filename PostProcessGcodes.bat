@@ -7,10 +7,10 @@
 ::or supply the path in the loop bellow ("C:\Program Files (x86)\GnuWin32\bin\sed.exe")
 
 ::Define speeds in XY and Z direction
-SET XYspeed=F400
+SET XYspeed=F70
 SET FastXYspeed=F1000
 
-SET Zspeed=F40
+SET Zspeed=F20
 SET FastZspeed=F100
 
 ::Set current directory to subfolder with gcodes: 
