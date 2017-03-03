@@ -10,8 +10,8 @@ I have never routed a PCB before, so this was a first, and I had no idéa of wha
   * Before auto routing I altered the net class: Edit/Net classes... Width: 1 mm, Drill: 1 mm, clearance: 0.5 mm
 3. I made a polyline-area that defined the board cut-out on layer 249 (Edge)
 4. Exported three files
-	*Routes and Cutout with Device: "GERBER_RS274X"
-	*Drills/Holes with "EXCELON_24" 
+	* Routes and Cutout with Device: "GERBER_RS274X"
+	* Drills/Holes with "EXCELON_24" 
 	
 ##Created gcode with FlatCAM
 1. Typed: "set_sys excellon_zeros T" in command-line (white area, bottom of window) to be able to import Eagle-files correctly (done only once)
@@ -25,7 +25,7 @@ I have never routed a PCB before, so this was a first, and I had no idéa of wha
 ##Post Procesor
 1. I made a custom post-procesor to match the gcode that the post processor for F360 puts out. 
 	* creds to [Mike](https://www.vicious1.com/forum/topic/pcb-isolation-milling/) that led me in the right direction
-	* It's a bat-script and needs "Sed" to be installed download Sed.exe for windows [here](from http://gnuwin32.sourceforge.net/packages/sed.htm)
+	* It's a bat-script and needs "Sed" to be installed download Sed.exe for windows [here](http://gnuwin32.sourceforge.net/packages/sed.htm)
 	* Just put the bat-file next to the folder "PostProcess" and dubble click the file, it will generate gcode-files of all the files in the folder
 
 ##Milling
